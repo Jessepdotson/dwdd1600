@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Darkwood National Park: Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Learn about Americas abandoned National Park">
+        <meta name="author" content="Jesse Dotson">
+          <link rel="stylesheet" href="traveler.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <!-- Start of the page header -->
+          <header>
+              <img src="images/logoc.png" alt="site logo" width="100" height="58">
+        <div>
+            <h1>Darkwood National Park</h1>
+            <p>Learn about Americas lost National Park</p>
+          </div>
+            
+        </header>   <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">History</a></li>
+             <li><a href="Merchandise.html">Merchandise</a></li>
+            <li><a href= "Archive.html">Archive</a></li>
+        <li class="active"><a href="delivery.html">Share Your Memories</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h2>Share memories and tips regarding Darkwoods National Park and the Missing 151. </h2>
+        <h3>All information gathered will only be accessable by CLAMO. staff and will be used for the recovery of missing persons.</h3>
+        
+        <form method="get" class="myForm" action="thanks.html">
+            
+     <label> Please share your fond memories here before completing our short survey: </label>
+            <textarea name="comments"></textarea>
+           
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Home Address*<input type="tel" name="phone" required></label>
+            </fieldset>
+        
+         <fieldset>
+            <legend> Have You Ever Physically been to The Area Previously Known as Darkwood National Park?</legend>
+            <label><input type="radio" name="method" value="drone">Yes </label>
+            <label><input type="radio" name="method" value="cycle">No</label>
+            <label><input type="radio" name="method" value="robot">Other (comment above)</label>
+        </fieldset>
+            
+        <fieldset>
+           <legend>Do You or a Loved One Experience Any of The Following Symptoms?</legend>
+            <label><input type="checkbox" name="porch" value="chosen"> insomnia</label>
+          <label><input type="checkbox" name="deck" value="chosen">chronic itching sensations</label>
+        <label><input type="checkbox" name="driveway" value="chosen"> reddening or inflamed skin </label>
+               <label><input type="checkbox" name="garage" value="chosen">  bad dreams.</label>
+            
+            <label><input type="checkbox" name="garage" value="chosen">phanton limb phenomenon (please select the part of your body most afflicted)
+            </label>
+            <label>
+        <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">Left or Right Arm(s)</option>
+             <option value="noon">Torso</option>
+             <option value="afternoon">Scalp and/or Ears</option>
+            <option value="evening">Abdomen</option>
+              <option value="evening">Eyes</option>
+             <option value="evening">Left or Right Leg(s)</option>
+             <option value="evening">All of The Above</option>
+            </select>
+                            </label>
+        </fieldset>
+            
+        
+        
+        <input type="submit" value="Submit">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2023 &bull; Jesse Dotson &bull; <a href="mailto:10956580@uvu.edu">Email Us</a></p>
+        </footer> 
+</body>
+</html>
